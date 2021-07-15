@@ -1,17 +1,17 @@
-<h1>Day 1:</h1>
+<h1>Day 1: (1-2hrs)</h1>
 
 1. Read the paper regarding the simple approach. CNN-Classification
 
 2. Cloths extraction followed by classification.
 
-<h1>Day 2:</h1>
+<h1>Day 2: (2hrs)</h1>
 
 1. Read state-of-the-art Research Paper:
 
 2. Attentive Fashion Grammar Network for
   Fashion Landmark Detection and Clothing Category Classification
 
-<h1>Day 3:</h1>
+<h1>Day 3: (1-2hrs)</h1>
 
 1. Dataset finalization: DeepFashion 
 
@@ -25,7 +25,7 @@
    <li>Each image is annotated by bounding box and clothing type.<li>
 </ul>
 
-<h1>Day 4:</h1>
+<h1>Day 4:(3-4hrs)</h1>
 
 1. Work on basic implementation: Vision Transformer classification
 
