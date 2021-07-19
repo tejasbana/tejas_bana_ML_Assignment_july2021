@@ -1,4 +1,20 @@
 
+Problem Statement:
+ Fashion category and attribute extractoin from an image.
+
+Case considered:
+1. Public, studio and extracted cloth images are considered.
+2. 50 category and 1000 attributes considered.
+3. Front and back of the cloths are taken into consideration.
+4. Image transformation, like rotation for recognizing cloths from every angle.
+5. Only Single person images.
+
+Cons:
+1. No bounding box
+2. Multiple cloths items in a sigle image.
+3. Multiple persons in the images.
+4. Cloths from side angle.
+
 Important Links: 
 
 1. DeepFashion: http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html
@@ -7,11 +23,11 @@ Important Links:
 4. Other info: https://github.com/PlabanM1/FashionNet/blob/master/FashionNet.ipynb
 
 <table style="width:100%">
-  <tr>
+  <!-- <tr>
     <th>Day-Date</th>
     <th>Work</th> 
     <th>Time</th>
-  </tr>
+  </tr> -->
   <tr>
     <td>Day 1: 11/07/2021</td>
     <td>Day 2: 12/07/2021</td>
