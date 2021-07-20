@@ -55,7 +55,7 @@ Cons:
 </table>
 
 
-Experiments:
+<h1>Experiments:</h1>
 
 1. ResNet-18 from scratch --> X
 
@@ -66,7 +66,7 @@ Experiments:
     <th>Time</th>
   </tr> -->
   <tr>
-    <td>PreTrained ResNet-18</td>
+    <td>2. PreTrained ResNet-18</td>
     <td>30 epochs</td>
     <td>category  val_acc: 99.62%</td>
     <td>attribute val_acc: 03.93%</td>
@@ -74,7 +74,7 @@ Experiments:
     <td>Should use a different loss function</td>
   </tr>
   <tr>
-    <td>PreTrained ResNext_32_4d</td>
+    <td>3. PreTrained ResNext_32_4d</td>
     <td>25 epochs</td>
     <td>category  val_acc: 93.09%</td>
     <td>attribute val_acc: 02.00%</td>
@@ -82,7 +82,7 @@ Experiments:
     <td><strong>No improvement using big models.</strong></td>
   </tr>
   <tr>
-    <td>PreTrained ResNet-18</td>
+    <td>4. PreTrained ResNet-18</td>
     <td></td>
     <td></td>
     <td></td>
