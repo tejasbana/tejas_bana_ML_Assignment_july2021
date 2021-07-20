@@ -15,12 +15,6 @@ Cons:
 3. Multiple persons in the images.
 4. Cloths from side angle.
 
-Important Links: 
-
-1. DeepFashion: http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html
-2. Vision Transformer: https://github.com/lucidrains/vit-pytorch
-3. BRCNN approach: https://github.com/zuoxiang95/BCRNN
-4. Other info: https://github.com/PlabanM1/FashionNet/blob/master/FashionNet.ipynb
 
 <table style="width:100%">
   <!-- <tr>
@@ -59,6 +53,51 @@ Important Links:
     <td>(4 hrs)</td>
   </tr>
 </table>
+
+
+Experiments:
+
+1. ResNet-18 from scratch --> X
+
+<table style="width:100%">
+  <!-- <tr>
+    <th>Day-Date</th>
+    <th>Work</th> 
+    <th>Time</th>
+  </tr> -->
+  <tr>
+    <td>PreTrained ResNet-18</td>
+    <td>30 epochs</td>
+    <td>category  val_acc: 99.62%</td>
+    <td>attribute val_acc: 03.93%</td>
+    <td>binary_cross_entropy_with_logits</td>
+    <td>Should use a different loss function</td>
+  </tr>
+  <tr>
+    <td>PreTrained ResNext_32_4d</td>
+    <td>25 epochs</td>
+    <td>category  val_acc: 93.09%</td>
+    <td>attribute val_acc: 02.00%</td>
+    <td>binary_cross_entropy_with_logits</td>
+    <td><strong>No improvement using big models.</strong></td>
+  </tr>
+  <tr>
+    <td>PreTrained ResNet-18</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>MultiLabelSoftMarginLoss</td>
+    <td></td>
+  </tr>
+</table>
+
+
+Important Links: 
+
+1. DeepFashion: http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html
+2. Vision Transformer: https://github.com/lucidrains/vit-pytorch
+3. BRCNN approach: https://github.com/zuoxiang95/BCRNN
+4. Other info: https://github.com/PlabanM1/FashionNet/blob/master/FashionNet.ipynb
 
 
 <h1>Day 1: 11/07/2021</h1>
