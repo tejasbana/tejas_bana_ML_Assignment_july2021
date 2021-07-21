@@ -29,6 +29,7 @@ Cons:
     <td>Day 4: 14/07/2021</td>
     <td>Day 5: 18/07/2021</td>
     <td>Day 6: 19/07/2021</td>
+    <td>Day 7: 20/07/2021</td>
   </tr>
   <tr>
     <td>1. Read the paper regarding the simple approach. CNN-Classification
@@ -43,6 +44,7 @@ Cons:
     <br>4. Further Implovement </td>
     <td>1. <strong>Working on the Code</strong></td>
     <td>1. <strong>Experiment with Resnet-18 and ResNext_52_4d</strong></td>
+    <td>1. <strong>Experiment with different loss functions</strong></td>
   </tr>
   <tr>
     <td>(1-2hrs)</td>
@@ -50,6 +52,7 @@ Cons:
     <td>(1-2hrs)</td>
     <td>(3-4hrs)</td>
     <td>(8 hrs)</td>
+    <td>(4 hrs)</td>
     <td>(4 hrs)</td>
   </tr>
 </table>
@@ -83,9 +86,9 @@ Cons:
   </tr>
   <tr>
     <td>4. PreTrained ResNet-18</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>17 epochs</td>
+    <td>category  val_acc: 97.17%</td>
+    <td>attribute val_acc: 03.25%</td>
     <td>MultiLabelSoftMarginLoss</td>
     <td></td>
   </tr>
